@@ -218,6 +218,9 @@ body {
   width: 378px;
   border-radius: 30px;
 }
+.game__cart:hover {
+  transform: scale(1.05);
+}
 .game__picture {
   border-radius: 30px;
 }
@@ -359,6 +362,10 @@ body {
   flex-grow: 0;
   margin: 36px 0px;
   cursor: pointer;
+}
+.game-block__button:hover {
+  background-color: white;
+  color: black;
 }
 .game-block__item {
   padding: 48px;
