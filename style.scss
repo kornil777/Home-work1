@@ -203,7 +203,9 @@ width: 788px;
         grid-column: span 4;
         background-color: $cart-background;
         width: 378px;
-        border-radius: 30px;}
+        border-radius: 30px;
+        &:hover{transform:scale(1.05)}
+    }
     &__picture{border-radius: 30px;}
     &__number{
         border-radius: 52.58px;
@@ -317,6 +319,9 @@ width: 788px;
         flex-grow: 0;
         margin: 36px 0px;
         cursor: pointer;
+        &:hover{
+            background-color: white;
+            color: black;}
         
     }
     &__item{
