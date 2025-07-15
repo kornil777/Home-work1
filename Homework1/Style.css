@@ -28,6 +28,7 @@ body {
   background-position: center;
   background-size: cover;
   position: relative;
+  overflow: hidden;
 }
 .main__content {
   padding-left: 120px;
