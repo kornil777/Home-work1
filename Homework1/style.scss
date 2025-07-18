@@ -10,7 +10,7 @@ a {
 }
 body {
   font-family: "Montserrat", sans-serif;
-  width: 1440px;
+  
 }
 .bold {
   font-weight: bold;
@@ -208,7 +208,7 @@ $cart-background: rgb(255, 255, 255);
     top: 5636px;
   }
 }
-
+.mobstar {display: none;}
 .game {
   display: flex;
   flex-wrap: wrap;
@@ -293,6 +293,7 @@ $cart-background: rgb(255, 255, 255);
 // раздел Мини-игры
 .mini-games {
   background-color: $background-color;
+  background-size: cover;
   padding-left: 120px;
   padding-top: 46px;
   &__content {
@@ -390,7 +391,7 @@ $cart-background: rgb(255, 255, 255);
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  width: 1441px;
+  
 
   &__text {
     color: rgb(0, 0, 0);
@@ -402,3 +403,5 @@ $cart-background: rgb(255, 255, 255);
     text-align: center;
   }
 }
+
+@import "mobile";
